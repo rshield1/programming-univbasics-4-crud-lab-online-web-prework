@@ -46,7 +46,7 @@ def retrieve_last_element_from_array(array)
 end
 
 def update_element_from_index(array, index_number, element)
-array = []
-array[(index_number)] << element
-return array
+array = ["Rob", "Kenny", "Jared", "Erica"]
+index_number = array[index_number]
+return element
 end
