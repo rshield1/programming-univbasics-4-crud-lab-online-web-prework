@@ -20,7 +20,7 @@ end
 
 def remove_element_from_end_of_array(array)
   array = ["Rob", "Kenny", "Jared", "Erica"]
-  last_item = array.pop
+  last_item = array.pop(-1)
   
 end
 
