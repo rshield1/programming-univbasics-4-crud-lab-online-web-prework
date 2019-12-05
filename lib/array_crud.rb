@@ -21,7 +21,7 @@ end
 def remove_element_from_end_of_array(array)
   array = ["Rob", "Kenny", "Jared", "Erica"]
   array.pop(array)
-  return last_item
+  return array
 end
 
 def remove_element_from_start_of_array(array)
