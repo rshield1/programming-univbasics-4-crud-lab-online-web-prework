@@ -48,5 +48,5 @@ end
 def update_element_from_index(array, index_number, element)
 array = []
 array[(index_number)] << element
-array
+return array
 end
